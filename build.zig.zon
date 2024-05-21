@@ -1,0 +1,13 @@
+.{
+    .name = "zid",
+    .version = "0.1.0",
+    .minimum_zig_version = "0.12.0", // not a hard-requirement, but I've built this package with 0.12 only.
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
